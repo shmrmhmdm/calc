@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(0, 2, 0);
+}
+.calc-outer{
+    width:500px;
+    height: 555px;
+    border: 1px solid rgb(252, 250, 250);
+    border-radius: 10px;
+    margin-left: 30%;
+    /* background-color: rgba(110, 204, 47, 0.363); */
+    /* background: linear-gradient(to right, rgb(211, 173, 173) 40%, rgb(221, 167, 212) 60%); */
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px rgba(242, 243, 241, 0.3);
+}
+#input{
+    width: 95%;
+    height: 30%;
+    background-color: rgb(221, 212, 212);
+    font-size:150px ;
+    margin-left: 7px;
+    margin-right: 100px;
+    margin-top: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    align-items: center;
+    border: 1px solid grey;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(5, 90, 41);
+}
+button{
+    width: 60px;
+    height: 60px;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 8px;
+    margin-top: 30px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(245, 247, 242, 0.3);
+    text-align: center;
+    
+}
+.button-item{
+    margin-left: 10px;
+    margin-right: 7px;
+    margin-top: 7px;
+ 
+    /* background:rgb(209, 212, 21) ; */
+}
+button:hover{
+    background-color: rgb(172, 55, 26);
+}
+.onetofive{
+    border: solid 2px black;
+    border-radius: 30px;
+    margin-top: 2%;
+}
+.sixtozero{
+    border: solid 2px black;
+    border-radius: 30px;
+    margin-top: 2%;
+}
+.btn-calc{
+    border: solid 2px black;
+    border-radius: 30px; 
+    margin-top: 2%;
+}

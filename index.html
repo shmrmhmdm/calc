@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./code.js"></script>
+    
+</head>
+<body>
+<div class="calc-outer">
+    <input type="text" id="input" maxlength='5' >
+        <div class="button-item">
+            <div class="onetofive">
+                <button onclick="result(1)" id="btn">1</button>
+                    <button onclick="result(2)">2</button>
+                         <button onclick="result(3)">3</button>
+                            <button onclick="result(4)">4</button>
+                                 <button onclick="result(5)">5</button>
+                                     <button onclick="off()">C</button>
+    </div>
+    <div class="sixtozero">
+        <button onclick="result(6)">6</button>
+            <button onclick="result(7)">7</button>
+                <button onclick="result(8)">8</button>
+                     <button onclick="result(9)">9</button>
+                         <button onclick="result(0)">0</button>
+                             <button onclick="result('.')">.</button>
+                               
+    </div>
+    <div class="btn-calc">
+        <button onclick="result('+')">+</button>
+            <button onclick="result('-')">-</button>
+                <button onclick="result('*')">x</button>
+                    <button onclick="result('/')">/</button>
+                        <button onclick="equalFunc('')">=</button>
+                            <button>Q</button>
+                                </div>
+        </div>
+        <div><label for="" style="color: white; margin: 30px;" ><i>Designed by shmr</i></label></div>
+    </div>
+   
+</body>
+</html>
